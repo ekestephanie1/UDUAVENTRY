@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="icon" type="image/png" href="/Assets/logo.svg" sizes="16x16">
+    <link rel="stylesheet" href="/CSS/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Kumbh+Sans:wght@400;700&family=Poppins:wght@200&family=Raleway:wght@500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <div id="logo">
+                <img src="/Assets/logo.svg" alt="logo">
+            </div>
+            <div id="log-in">Login</div>
+            <div id="para">see your stock and get support!</div>
+        </div>
+        <div class="divider">
+            <div class="login-container">
+                <button id="google-signup">
+                    <a href="https://accounts.google.com/ServiceLogin/signinchooser?flowName=GlifWebSignIn&flowEntry=ServiceLogin
+
+                    " target="_blank">Log in with google</a>
+                    <img src="/Assets/google.svg" alt="google icon">
+                </button>
+                <div>
+                    <form method="post" action="php" class="form">
+                        <div>
+                            <label for="email">Email<span>*</span></label><br>
+                            <input type="email" name="email" id="email" placeholder="Enter your email" required />
+                        </div>
+
+                        <div>
+                            <label for="password">Password<span>*</span></label><br>
+                            <input type="password" name="password" id="password" minlength="8"
+                                placeholder="minimum of 8 characters" required />
+                        </div>
+                    </form>
+                </div>
+                <div id="remember-container">
+                    <div id="check-container">
+                        <input type="checkbox" name="remember" id="remember" />
+
+                        <div id="rem-text">Remember Me</div>
+                    </div>
+                    <div id="forgot-text"><a href="https://accounts.google.com/signin/recovery
+                        ">Forgot password?</a></div>
+                </div>
+                <div>
+                    <button id="login-btn">
+                        <a href="/HTMl/success.html" target="_blank">Login</a>
+                    </button>
+                </div>
+                <div id="account">
+                    <p>Not registered yet? <a href="/HTMl/signup.html" target="_blank">Create a new account</a></p>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <img src="/Assets/image.svg" height="auto" width="70%" alt="image" />
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

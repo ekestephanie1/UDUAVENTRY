@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Kumbh+Sans:wght@400;700&family=Poppins:wght@200&family=Raleway:wght@500&display=swap');
+.container{
+    max-width: 90%;
+    margin: 50px auto;
+   border-radius: 5px;
+   background: #EDCC3C;
+height: 921px;
+padding: 10px;
+padding-left: 20px;
+align-items: center;
+gap: 10px;
+display: block;
+align-self: stretch;
+}
+
+.content {
+    display: block !important;
+    width: 711px;
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: start;
+    gap: 29px;
+  }
+ 
+
+  #log-in {
+    font-family: poppins;
+    color: #000000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 30px;
+  }
+  #para {
+    color: rgba(0, 0, 0, 0.68);
+margin-top: 30px;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+   
+  .divider{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+  
+  .login-container {
+    display: block; 
+  
+}
+
+  button {
+    display: flex;
+    width: 410px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1px solid #000;
+    margin-top: 0
+
+  }
+ 
+  #google-signup {
+    color: #000;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: transparent;
+    text-align: center;
+    width: 80%;
+    margin-top: 10%
+  }
+  #google-signup a {
+    color: #000;
+    text-decoration: none;
+  }
+  #google-signup a:hover {
+    color: blue;
+    
+  }
+  #google-signup img {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+  }
+  label span {
+    color: #ba1200;
+  }
+  .form {
+    display: block;
+    height: 60px;
+    padding: 15px 10px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    margin: 20px 0;
+    width: 100%;
+    font-family: poppins;
+    font-weight: 600;
+    
+  }
+  .form label {
+    margin-top: 10px;
+    
+  }
+  .form input {
+    
+    border-radius: 5px;
+    border: 1px solid #8f8f8f;
+    background: #edf0f2;
+    padding: 15px 10px;
+    align-items: center;
+    width: 75%;
+    height: 30px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  #forgot-password{
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    align-content: center;
+    margin-top: 25%;
+    width: 80%;
+  }
+
+  #remember-text {
+color: red;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+margin-bottom: 50px !important;
+
+  }
+  #help {
+    float: right;
+    justify-self: end;
+    color:#BA1200 !important;
+    font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+
+
+  #login-btn{
+    border-radius: 20px;
+  border: 1px solid #8f8f8f;
+  background: #320a28;
+  color: #feefe5;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 30px;
+  width: 80%
+  }
+#login-btn a{
+    color: white;
+    text-decoration: none;
+}
+#login-btn a:hover{
+    color: blue;
+}
+
+  #account  {
+    color: #131313;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 80%;
+    margin-left: 5px;
+  }
+  #account a:hover{
+    color: red;
+  }
+
+  #remember-container{
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    justify-content: space-between;
+    padding-left: 4px;
+    margin-top: 26%;
+    width: 110%;
+  }
+
+  #check-container{
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+
+  #remember {
+    width: 24px;
+height: 24px;
+border-radius: 5px;
+border: 1px solid #000;
+background-color: transparent !important;
+margin-right: 5px;
+  }
+
+  #forgot-text a{
+    color: red;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+margin-left: auto;
+text-decoration: none;
+  }
+
+  #rem-text{
+    float:right;
+  }
+
+  .image-container{
+    width: 100%; 
+  }
+  .image-container img{
+    margin: 0 15%;
+    margin-top: -10%;
+  }

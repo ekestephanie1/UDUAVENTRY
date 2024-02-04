@@ -1,0 +1,249 @@
+
+body {
+  font-family: poppins;
+}
+.container {
+  max-width: 90%;
+  margin: 50px auto;
+  border-radius: 5px;
+  background: #7ce577;
+  height: 921px;
+  padding: 10px 20px;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+
+.content {
+  display: flex;
+  width: 711px;
+  padding: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 29px;
+}
+
+#register {
+  font-family: poppins;
+  color: #000000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#para span {
+  color: rgba(0, 0, 0, 0.68);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 1000;
+  line-height: normal;
+}
+#para {
+  color: rgba(0, 0, 0, 0.68);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+button {
+  display: flex;
+  width: 410px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  border: 1px solid #000;
+}
+
+#google-signup a {
+  color: #000;
+  text-decoration: none;
+
+}
+#google-signup a:hover{
+  color: #811a1a;
+}
+
+#google-signup {
+  color: #000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: transparent;
+  text-align: center;
+}
+
+#google-signup img {
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+}
+label span {
+  color: #ba1200;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 15px;
+  column-gap: 60px;
+  margin: 20px 0;
+  width: 100%;
+  font-family: poppins;
+  font-weight: 600;
+  
+}
+
+.form label {
+  display: block;
+  margin-top: 10px;
+}
+.form input {
+  display: block;
+  border-radius: 5px;
+  border: 1px solid #8f8f8f;
+  background: #edf0f2;
+  padding: 15px 10px;
+  align-items: center;
+  width: 96%;
+  height: 30px;
+  font-size: 16px;
+  margin-top: 5px;
+}
+
+.form div {
+  width: 100%;
+}
+
+#check-container {
+  color: #3b3b3b;
+  font-family: poppins;
+  font-size: 11.9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 30px;
+}
+#check-container span {
+  color: #ba1200;
+  font-family: poppins;
+  font-size: 11.9px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#check-container span:first-child {
+  color: #3b3b3b;
+}
+
+#signup-btn {
+  border-radius: 20px;
+  border: 1px solid #8f8f8f;
+  background: #320a28;
+  color: #feefe5;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 30px;
+}
+
+#signup-btn a{
+  color: white;
+    text-decoration: none;
+}
+#signup-btn a:hover{
+    color: blue;
+}
+
+#account p {
+  color: #131313;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+#account a{
+  color: #320a28;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 2000;
+  line-height: normal;
+}
+#account a:hover{
+  color: red;
+}
+
+.modal{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.modal-content {
+  width: 50%;
+height: fit-content;
+padding: 150px 0;
+margin: 20% auto 0;
+border-radius: 20px;
+background-color: #FEEFE5;
+border: 5px solid #7CE577;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.modal-content h2{
+  color: #0C4E06;
+  margin-bottom: 0;
+  font-weight: 800;
+  font-size: 40px;
+}
+.modal-content p{
+  color: #0C4E06;
+  font-weight: 600;
+  margin-bottom: 50px;
+  
+}
+.modal-content button{
+  border-radius: 20px;
+  border: 1px solid #8f8f8f;
+  background: #320a28;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 50px;
+
+}
+.modal-content a{
+  text-decoration: none;
+  color: #feefe5;
+}
+
+.modal-content a:hover{
+  color: blue;
+}
+
+
+
+
+
+
+
+

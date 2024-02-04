@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Kumbh+Sans:wght@400;700&family=Poppins:wght@200&family=Raleway:wght@500&display=swap");
+
+body {
+    font-family: poppins;
+    background-color: white;
+    min-height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    background-color: #FEEFE5;
+    width: 100%;
+min-height: 100vh;
+  }
+  .content{
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 58px; 
+    margin: auto;
+    text-align: center;
+  }
+  .divider{
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  #check-mark{
+    width: 298px;
+height: 298px;
+flex-shrink: 0;
+text-align: center;
+margin: auto;
+  }
+
+  #check-mark img{
+
+    display: inline-block;
+  }
+  header{
+    color: #000;
+font-family: Poppins;
+font-size: 70px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+  }
+
+  #paragraph{
+    color: #000;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+  }
+
+  #home-page{
+    font-family: poppins;
+    border-radius: 20px;
+border: 1px solid #8F8F8F;
+background: #320A28;
+display: flex;
+width: 410px;
+height: 60px;
+padding: 15px 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+margin: auto;
+  }
+
+ #home-page a{
+    color: white;
+      text-decoration: none;
+  }
+  #home-page a:hover{
+      color: blue;
+  }
+
+
+  .image{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+
+  .image video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+  }
